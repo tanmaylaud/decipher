@@ -4,6 +4,11 @@
 
 The webapp allows the user to input a string encrypted using one of the two algorithms, namely Atbash and Caeser and decrypts them to plaintext. The app is only for educational purposes.
 
+For more info on Streamlit, click [here](https://streamlit.io) <br>
+To learn more about ciphers: <br>
+[Atbash](http://practicalcryptography.com/ciphers/atbash-cipher-cipher/) <br>
+[Caeser](http://practicalcryptography.com/ciphers/caesar-cipher/)
+
 ## How to run:
 
 ### Set up Local Environment
