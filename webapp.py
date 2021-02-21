@@ -4,12 +4,17 @@ from ciphers.defaults import CIPHER_OPTIONS
 
 
 st.header("Streamlit Decipher Demo")
+
 st.write("""### Provide your encrypted text input and press Decipher""")
+
 option = st.sidebar.selectbox(
     label="Cipher Options", options=list(CIPHER_OPTIONS.keys())
 )
+
 cipher = CIPHER_OPTIONS[option]
+
 ciphertext = st.text_input(label="Encrypted input", value=cipher["example"])
+
 if cipher["requires_key"]:
     key = st.sidebar.number_input(label="Provide Key", value=cipher["key"])
     if st.button("Decipher"):

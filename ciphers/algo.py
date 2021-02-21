@@ -28,12 +28,16 @@ def atbash(ciphertext: str) -> str:
 
 
 def caeser(ciphertext: str, key: str = None) -> str:
-    """Decipher text using Caesar algorithm.
+    """Decipher text using Caesar algorithm. It is a type of
+    substitution cipher in which each letter in the plaintext is 'shifted'
+    a certain number of places down the alphabet.
 
     Parameters
     ----------
     ciphertext: str
         The encrypted string to be decrypted.
+    key: str
+        The key is used to encrypt the plaintext.
 
     Returns
     -------
@@ -47,9 +51,9 @@ def caeser(ciphertext: str, key: str = None) -> str:
         if character in ascii_letters:
             idx = ascii_letters.index(character)
             if idx > 25:
-                idx = (idx + key) % 26 + 26
+                idx = (idx - key) % 26 + 26
             else:
-                idx = (idx + key) % 26
+                idx = (idx - key) % 26
             plaintext += ascii_letters[idx]
         else:
             plaintext += character
