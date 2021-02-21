@@ -13,9 +13,11 @@ To learn more about ciphers: <br>
 
 ### Set up Local Environment
 
+(Requires Python3.6+)
+
 ```bash
   # Create virtual environment
-  virtualenv venv
+  python3 -m venv venv
 
   # Activate environment
   source venv/bin/activate
