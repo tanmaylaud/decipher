@@ -7,7 +7,7 @@ def atbash(ciphertext: str) -> str:
 
     Parameters
     ----------
-    text: str
+    ciphertext: str
         The encrypted string to be decrypted.
 
     Returns
