@@ -29,7 +29,7 @@ streamlit run webapp.py
 
 ## Add new algorithms
 
-You can add a new deciphering algorithm in ciphers.algo and then add a configuration in ciphers.defaults as follows:
+You can add a new deciphering algorithm in <i>ciphers.algo</i> and then add a configuration in ciphers.defaults as follows:
 
 ```python
 CIPHER_OPTIONS = {
