@@ -32,6 +32,12 @@ streamlit run webapp.py
 # App launching on port 8051...
 ```
 
+### Run tests
+
+```bash
+python tests.py
+```
+
 ## Add new algorithms
 
 You can add a new deciphering algorithm in <i>ciphers.algo</i> and then add a configuration in ciphers.defaults as follows:
