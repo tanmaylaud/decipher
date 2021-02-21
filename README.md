@@ -8,7 +8,7 @@ The webapp allows the user to input a string encrypted using one of the two algo
 
 ### Set up Local Environment
 
-```python
+```bash
   # Create virtual environment
   virtualenv venv
 
@@ -21,7 +21,7 @@ The webapp allows the user to input a string encrypted using one of the two algo
 
 ### Run the Streamlit app
 
-```python
+```bash
 streamlit run webapp.py
 
 # App launching on port 8051...
