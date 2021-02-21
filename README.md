@@ -1,9 +1,8 @@
 # Welcome to Decipher :wave:
 
-A Streamlit Webapp demonstrating deciphering algorithms.
+**A Streamlit Webapp demonstrating deciphering algorithms.**
 
-** Demonstrates two simple cipher algorithms Atbash and Cipher**
-The webapp allows the user to input a string encrypted using one of the two algorithms and decrypts them to plaintext. The app is only for educational purposes.
+The webapp allows the user to input a string encrypted using one of the two algorithms, namely Atbash and Caeser and decrypts them to plaintext. The app is only for educational purposes.
 
 ## How to run:
 
