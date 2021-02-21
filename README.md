@@ -19,7 +19,7 @@ To learn more about ciphers: <br>
   # Create virtual environment
   python3 -m venv venv
 
-  # Activate environment
+  # Activate environment ( for Linux/MacOS. Check command for Windows)
   source venv/bin/activate
 
   # Install dependencies
