@@ -31,7 +31,7 @@ To learn more about ciphers: <br>
 ```bash
 streamlit run webapp.py
 
-# App launching on port 8051...
+# App launching on port 8501...
 ```
 
 ### Run tests
